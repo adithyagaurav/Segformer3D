@@ -74,3 +74,8 @@ To run inference on video
 To train the network using pretrained imagenet weights
 
 `python3 src/train.py --weights <path to weights downloaded> --data_dir <path to data_seg_depth folder downloaded>`
+
+
+### References
+[1] Enze Xie, Wenhai Wang, Zhiding Yu, Anima Anandkumar, Jose M. Alvarez, and Ping Luo. 2021. SegFormer: Simple
+and efficient design for semantic segmentation with transformers. arXiv:cs.CV/2105.15203.
