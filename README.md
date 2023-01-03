@@ -1,6 +1,6 @@
 ## SEGFORMER3D
 
-Welcome to the enhanced Segformer 3D : A Vision Transformer neural network for segmentation and depth estimation usinf attention mechanism.
+Welcome to the enhanced Segformer 3D : A Vision Transformer neural network for segmentation and depth estimation using attention mechanism.
 
 
 
@@ -40,37 +40,29 @@ It is interesting to vizualize how differenct attention heads in different stage
 ### Dependencies
 
 Numpy
-
 OpenCV
-
 PyTorch
-
 Einops
-
 Timm
 
 ### Instructions
 
 Clone the repository
-
 `git clone https://github.com/adithyagaurav/Segformer3D`
 
 Download the dataset from [link](https://drive.google.com/drive/folders/16wql9YhBGNuXt2c_xk8cWX8z-gqNgr_s?usp=share_link) and place it in the `data/` folder
 
-Download the weights from [link](https://drive.google.com/drive/folders/16wql9YhBGNuXt2c_xk8cWX8z-gqNgr_s?usp=share_link) and place it in the `weights/` folder
+Download the weights from [link](https://drive.google.com/file/d/1MY9JbKJ3mmx-fE1sc2rQG-76tClH9_q6/view?usp=share_link) and place it in the `weights/` folder
 
 Download the test video from [link](https://drive.google.com/file/d/1vTAh8DTrzBtDs69vuqa5l4cChHwDxgzL/view?usp=share_link) and place it in the `video/` folder
 
 Download the backbone pertained weights from link
 
 To run inference on a single image
-
 `python3 src/test.py --weights <path to weights downloaded> --image_dir <path to folder containing the image>`
 
 To run inference on video
-
 `python3 src/test_video.py --weights <path to weights downloaded> --video <path to the inference video`>
 
 To train the network using pretrained imagenet weights
-
 `python3 src/train.py --weights <path to weights downloaded> --data_dir <path to data_seg_depth folder downloaded>`
