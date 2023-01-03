@@ -79,3 +79,4 @@ To train the network using pretrained imagenet weights
 ### References
 [1] Enze Xie, Wenhai Wang, Zhiding Yu, Anima Anandkumar, Jose M. Alvarez, and Ping Luo. 2021. SegFormer: Simple
 and efficient design for semantic segmentation with transformers. arXiv:cs.CV/2105.15203.
+[2] Segformer Exloration by ThinkAutonomous ![link](https://courses.thinkautonomous.ai/segformers)
