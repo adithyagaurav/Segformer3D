@@ -8,6 +8,7 @@ import numpy as np
 from dataset import SegformerDataset
 from SegFormer import segformer_mit_b3 as Segformer3D
 from utils import meanIoU, plot_training_results, InvHuberLoss
+import argparse
 
 def validate_model(model, dataloader, criterions, metric_class, num_classes, device):
     model.eval()
@@ -78,11 +79,15 @@ def train_validate_model(model, num_epochs, model_name, criterions, optimizer,
 
         if val_loss <= min_val_loss:
             min_val_loss = val_loss
-            torch.save(model.state_dict(), f"results/segformer3d_mit_b3_cs_pretrain_19CLS_224_224_CE_loss.pt")
+            torch.save(model.state_dict(), f"results/segformer3d.pt")
 
     return results
 
 if __name__=='__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--weights", required=True)
+    parser.add_argument("--data_dir", required=True)
+    args = parser.parse_args()
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     targetWidth = 256
     targetHeight = 128
@@ -99,10 +104,10 @@ if __name__=='__main__':
     print(f'[INFO]: Training job for {MODEL_NAME} received')
     model = Segformer3D(in_channels=3, num_classes=NUM_CLASSES).to(device)
     print(f'[INFO]: New Segformer model created')
-    model.load_state_dict(torch.load('weights/segformer3d_mit_b3_cs_pretrain_19CLS_224_224_CE_loss.pt', map_location=device), strict=False)
+    model.load_state_dict(torch.load(args.weights, map_location=device), strict=False)
     print(f'[INFO]: Segformer model weights loaded')
-    train_dataset = SegformerDataset(root_dir='data/data_seg_depth/', mode='train')
-    val_dataset = SegformerDataset(root_dir='data/data_seg_depth/', mode='val')
+    train_dataset = SegformerDataset(root_dir=args.data_dir, mode='train')
+    val_dataset = SegformerDataset(root_dir=args.data_dir, mode='val')
 
     trainloader = DataLoader(train_dataset, batch_size=64, shuffle=True, num_workers=4, drop_last=True)
     valloader = DataLoader(val_dataset, batch_size=64, shuffle=False, num_workers=4)

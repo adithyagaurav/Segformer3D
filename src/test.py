@@ -41,7 +41,7 @@ if __name__=='__main__':
     print("[INFO]: Image loaded")
 
     model = segformer_mit_b3(in_channels=3, num_classes=19).to(device)
-    model.load_state_dict(torch.load('weights/segformer3d_mit_b3_cs_pretrain_19CLS_224_224_CE_loss.pt', map_location=torch.device('cpu')))
+    model.load_state_dict(torch.load(args.weights, map_location=torch.device('cpu')))
     print("[INFO]: Model loaded, running inference")
     out_segm, out_depth = pipeline(model, img_input)
     print("[INFO]: Plot results")
