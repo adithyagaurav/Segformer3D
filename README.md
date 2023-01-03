@@ -29,7 +29,7 @@ This project modifies the original Segformer architecture to integrate an additi
 
 Carrying out Inference on a single image 
 
-![out](/Users/adithya/PMRO/Project/Segformer3D/results/out.png)
+![out](results/out.png)
 
 This architecture is a Vision Transformer at its core using attention mechanism. Visualizing the output from difference attention blocks at different stages helps in a gaining a better understanding of how the model is recognizing the important features which need to focussed on. Following is the vizualization from attention layers.
 
