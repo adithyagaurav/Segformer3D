@@ -120,8 +120,11 @@ Carrying out Inference on a single image
 
 This architecture is a Vision Transformer at its core using attention mechanism. Visualizing the output from difference attention blocks at different stages helps in a gaining a better understanding of how the model is recognizing the important features which need to focussed on. Following is the vizualization from attention layers.
 
-![Attention Visualization][results/viz.gif]
-
+<div align="center">
+  <a href="https://github.com/adithyagaurav/Segformer3D">
+    <img src="results/viz.gif" alt="Logo">
+  </a>
+</div>
 
 <!-- GETTING STARTED -->
 ## Getting Started
