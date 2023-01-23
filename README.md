@@ -116,6 +116,7 @@ Carrying out Inference on a single image
   <a href="https://github.com/adithyagaurav/Segformer3D">
     <img src="results/out.png" alt="Logo" width="100" height="80">
   </a>
+</div>
 
 This architecture is a Vision Transformer at its core using attention mechanism. Visualizing the output from difference attention blocks at different stages helps in a gaining a better understanding of how the model is recognizing the important features which need to focussed on. Following is the vizualization from attention layers.
 
