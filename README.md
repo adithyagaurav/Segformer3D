@@ -92,7 +92,7 @@ The segformer network uses an encoder-decoder style architecture, with attention
 
 <div align="center">
   <a href="https://github.com/adithyagaurav/Segformer3D">
-    <img src="results/segformer_architecture.png" alt="Logo" width="200" height="200">
+    <img src="results/segformer_architecture.png" alt="Logo">
   </a>
 </div>
 
