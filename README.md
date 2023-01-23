@@ -51,6 +51,12 @@
       </ul>
     </li>
     <li>
+        <a href="#architecture">Architecture</a>
+    </li>
+    <li>
+        <a href="#results">Results</a>
+    </li>
+    <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
