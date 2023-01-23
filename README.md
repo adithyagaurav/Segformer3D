@@ -92,8 +92,10 @@ The segformer network uses an encoder-decoder style architecture, with attention
 
 <div align="center">
   <a href="https://github.com/adithyagaurav/Segformer3D">
-    <img src="results/segformer_architecture.png" alt="Logo" width="100" height="80">
+    <img src="results/segformer_architecture.png" alt="Logo" width="200" height="200">
   </a>
+</div>
+
 
 In the original paper Segformer [[1]](https://arxiv.org/pdf/2105.15203.pdf), the authors describe network to be a cascaded sequence of transformer and downsampling block. The transformer block is an ensemble responsible for implementing attention mechanism.
 
