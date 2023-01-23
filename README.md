@@ -114,7 +114,7 @@ Carrying out Inference on a single image
 
 <div align="center">
   <a href="https://github.com/adithyagaurav/Segformer3D">
-    <img src="results/out.png" alt="Logo" width="100" height="80">
+    <img src="results/out.png" alt="Logo">
   </a>
 </div>
 
