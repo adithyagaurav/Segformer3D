@@ -27,7 +27,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/adithyagsingh/Segformer3D">
+  <a href="https://github.com/adithyagaurav/Segformer3D">
     <img src="results/UMD_logo.png" alt="Logo" width="160" height="80">
   </a>
 
@@ -91,7 +91,7 @@ This project implements the original Segformer architecture specialized in image
 The segformer network uses an encoder-decoder style architecture, with attention modules integrated in the encoder block. Attention mechanism, in its simplest form works by looking at different parts of the image and deciding which parts are most important for understanding the overall picture. It does this by comparing different parts of the image to each other using something called a "key" and a "query". The key is like a label that describes what is in each part of the image, and the query is like a question that the model is trying to answer. By comparing the key and the query, the attention mechanism can figure out which parts of the image are most important for answering the question.
 
 <div align="center">
-  <a href="https://github.com/adithyagsingh/Segformer3D">
+  <a href="https://github.com/adithyagaurav/Segformer3D">
     <img src="results/segformer_architecture.png" alt="Logo" width="100" height="80">
   </a>
 
@@ -111,7 +111,7 @@ This project modifies the original Segformer architecture to integrate an additi
 Carrying out Inference on a single image 
 
 <div align="center">
-  <a href="https://github.com/adithyagsingh/Segformer3D">
+  <a href="https://github.com/adithyagaurav/Segformer3D">
     <img src="results/out.png" alt="Logo" width="100" height="80">
   </a>
 
@@ -160,7 +160,7 @@ Download the backbone pertained weights from [link](https://drive.google.com/fil
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/adithyagsingh/Segformer3D.git
+   git clone https://github.com/adithyagaurav/Segformer3D.git
    ```
 2. To run inference on a single image
   ```sh
@@ -191,7 +191,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Adithya Singh - agsingh@umd.edu
 
-Project Link: [https://github.com/adithyagsingh/Segformer3D](https://github.com/adithyagsingh/Segformer3D)
+Project Link: [https://github.com/adithyagaurav/Segformer3D](https://github.com/adithyagaurav/Segformer3D)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -210,16 +210,16 @@ and efficient design for semantic segmentation with transformers](https://arxiv.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/adithyagsingh/Segformer3D.svg?style=for-the-badge
-[contributors-url]: https://github.com/adithyagsingh/Segformer3D/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/adithyagsingh/Segformer3D.svg?style=for-the-badge
-[forks-url]: https://github.com/adithyagsingh/Segformer3D/network/members
-[stars-shield]: https://img.shields.io/github/stars/adithyagsingh/Segformer3D.svg?style=for-the-badge
-[stars-url]: https://github.com/adithyagsingh/Segformer3D/stargazers
-[issues-shield]: https://img.shields.io/github/issues/adithyagsingh/Segformer3D.svg?style=for-the-badge
-[issues-url]: https://github.com/adithyagsingh/Segformer3D/issues
-[license-shield]: https://img.shields.io/github/license/adithyagsingh/Segformer3D.svg?style=for-the-badge
-[license-url]: https://github.com/adithyagsingh/Segformer3D/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/adithyagaurav/Segformer3D.svg?style=for-the-badge
+[contributors-url]: https://github.com/adithyagaurav/Segformer3D/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/adithyagaurav/Segformer3D.svg?style=for-the-badge
+[forks-url]: https://github.com/adithyagaurav/Segformer3D/network/members
+[stars-shield]: https://img.shields.io/github/stars/adithyagaurav/Segformer3D.svg?style=for-the-badge
+[stars-url]: https://github.com/adithyagaurav/Segformer3D/stargazers
+[issues-shield]: https://img.shields.io/github/issues/adithyagaurav/Segformer3D.svg?style=for-the-badge
+[issues-url]: https://github.com/adithyagaurav/Segformer3D/issues
+[license-shield]: https://img.shields.io/github/license/adithyagaurav/Segformer3D.svg?style=for-the-badge
+[license-url]: https://github.com/adithyagaurav/Segformer3D/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
 [product-screenshot]: results/out.gif
