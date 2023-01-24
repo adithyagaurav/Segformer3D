@@ -233,7 +233,7 @@ and efficient design for semantic segmentation with transformers](https://arxiv.
 [license-shield]: https://img.shields.io/github/license/adithyagaurav/Segformer3D.svg?style=for-the-badge
 [license-url]: https://github.com/adithyagaurav/Segformer3D/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://www.linkedin.com/in/adithyagsingh/
 [product-screenshot]: results/out.gif
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
